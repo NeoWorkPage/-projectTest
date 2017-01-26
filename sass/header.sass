@@ -1,0 +1,202 @@
+@import "bourbon"
+@import "vars.sass"
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: "RobotoRegular", sans-serif
+	overflow-x: hidden
+	padding: 0 
+	margin: 0 
+
+.hidden
+	display: none
+.main
+	width: 100%
+	background-color: #1f2c3d  
+	padding-top: 50px 
+	
+.main_content_table
+	font-weight: lighter
+	font-size: 16px  
+	border-collapse: collapse     
+
+.main_content_th
+	color: #a4adb6
+	opacity: .5 
+	border-bottom: 1px solid 
+	border-color: rgba(255,255,255, .1) 
+	padding: 10px 
+	padding-left: 5px 
+	
+	  
+	
+.main_content_td-fund
+	padding-left: 21px 
+	color: #fec02d 
+	border-bottom: 1px solid rgba(255,255,255, .1)
+	cursor: pointer
+
+	
+	
+.main_content_td-rate
+	text-align: center
+	color: #ffffff 
+	padding: 14px 
+	border-bottom: 1px solid rgba(255,255,255, .1)
+	cursor: pointer
+.main_content_td-free
+	text-align: center
+	color: #FFF 
+	padding-left: 22px 
+	border-bottom: 1px solid rgba(255,255,255, .1)
+	cursor: pointer
+	
+.rotate90
+	transform: rotate(180deg) 
+	opacity: .3
+	cursor: pointer
+	width: 7px
+	height: 14px 
+
+
+
+.td_border
+	border-bottom: 1px solid rgba(255,255,255, .1)
+	
+.main_content_table
+	width: 100% 
+	.tr_background-color
+		&:hover
+			background-color: rgba(255,255,255, .1)
+.td-red
+	color: #ff3f37 
+
+
+	
+.menu
+	position: fixed
+	z-index: 2 
+	background-color: #0f161e
+	margin: 0
+	padding: 0  
+	width: 100% 
+	ul
+		margin: 0 
+		list-style-type: none 
+		padding: 0 
+		-webkit-box-shadow: #FFF 
+		box-shadow: 0 0 15px rgba(0,0,0,0.8); 
+		border-top: 2px solid #fec02d
+		
+		li
+			display: inline-block
+			text-align: center 
+			font-size: 16px
+			
+			vertical-align: middle 
+			line-height: 50px  
+			
+			height: 50px
+			 
+			
+			
+			a
+				color: rgba(255,255,255,.3) 
+				text-decoration: none  
+				&:hover
+					color: #fff 
+				&:active
+					color: none 
+				
+	.li_active
+		color: #FFF 
+			
+
+
+	.menu_li
+		min-width: 30%  
+		margin-left: -4px
+		@media only screen and (max-width : 1366px)
+			min-width: 32% 
+		@media only screen and (max-width : 1247px)
+			min-width: 31.8% 
+		@media only screen and (max-width : 1160px)
+			min-width: 31.4% 
+		@media only screen and (max-width : 1024px)
+			min-width: 31.5% 
+		@media only screen and (max-width : 926px)
+			min-width: 31.2% 
+		@media only screen and (max-width : 768px)
+			min-width: 31% 
+		@media only screen and (max-width : 710px)
+			min-width: 30.4% 
+		@media only screen and (max-width : 580px)
+			min-width: 29.8% 
+		@media only screen and (max-width : 480px)
+			min-width: 29.3% 
+		@media only screen and (max-width : 414px)
+			min-width: 29.1% 
+		@media only screen and (max-width : 375px)
+			min-width: 28.7% 
+		@media only screen and (max-width : 360px)
+			min-width: 28.4% 
+		@media only screen and (max-width : 320px)
+			min-width: 27.9% 
+	
+		
+	.li-color1
+		border-bottom: 4px solid #391d57
+	.li-color2
+		border-bottom: 4px solid #204630
+	.li-color3
+		border-bottom: 4px solid #4093f4
+		
+		
+		
+		 
+
+
+
+	
+
+
+
+
+
+
+.toggle-mnu 
+	display: block
+	width: 18px
+	height: 28px
+	margin-top: 15px
+	margin-left: 16px
+	margin-right: 16px 
+	opacity: .7  
+
+.toggle-mnu span:after,
+.toggle-mnu span:before 
+	content: ""
+	position: absolute
+	left: 0
+	top: 9px
+
+.toggle-mnu span:after
+	top: 18px
+
+.toggle-mnu span 
+	position: relative
+	display: block
+
+.toggle-mnu span,
+.toggle-mnu span:after,
+.toggle-mnu span:before
+	width: 100%
+	height: 2px
+	background-color: #fff
+	
+	backface-visibility: hidden
+	border-radius: 2px
+
